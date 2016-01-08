@@ -1,0 +1,110 @@
+@import 'vendors/_bootstrap.scss';
+@import 'vendors/_normalize.scss';
+@import 'vendors/_jasny-bootstrap.scss';
+@font-face{ 
+  font-family:'Glasgow_Regular';
+  src:url('/fonts/Glasgow_Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+html{
+  height: 100%;
+  width: 100%;
+}
+
+body{
+  font-family: 'Glasgow_Regular', 'Helvetica', 'Arial', sans-serif;
+}
+
+.home-bg {
+	background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-image: url(/img/home-bg-min.jpg);
+}
+
+.about-bg {
+	background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-image: url(/img/about-bg-min.jpg);
+    color: white;
+}
+
+
+.solutions-bg {
+	background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-image: url(/img/solutions-bg-min.jpg);
+}
+
+
+.pricing-bg {
+	background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-image: url(/img/pricing-bg-min.jpg);
+}
+
+.contact-bg {
+	background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-image: url(/img/contact-bg-min.jpg);
+}
+
+.jumbotron {
+background: transparent !important;	
+margin-left: auto;
+margin-right: auto;
+margin-top: 135px;
+color: black;
+
+}
+
+.jumbotron .btn{
+  margin-top: -30px;
+  background-color: black;
+  color: white;
+  
+}
+
+.jumbotron a:hover{
+  color: black;
+  background-color: gray;
+}
+
+.navbar-fixed-bottom {
+	background-color: black;
+}
+
+nav a{
+  color: white !important;
+}
+
+
+nav li a{
+  font-size: 1.4em;
+  text-align: center;
+  width: 366px;
+}
+
+nav a:hover{
+  color: black !important;
+  background-color: white !important;
+}
+
+.active a{
+	color: black !important;
+  background-color: white !important;
+}
+
+#about-text{
+  font-size: 1.1em;
+}
+
+.navbar-toggle {
+	border: none;
+}
